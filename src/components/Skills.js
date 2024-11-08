@@ -2,6 +2,7 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
+import Marquee from 'react-marquee-line';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
@@ -35,25 +36,48 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
+                        <p>Consistently honing skills with a passion for learning and continuous growth.</p>
+                        <table className="table-skill">
+                          <thead>
+                            <tr >
+                              <th>Skills</th>
+                              <th>Tools and Technologies</th>
+                              <th>Web Development</th>
+                              <th>SDLC</th>
+                            </tr>
+                          </thead>
+                          <tbody className="body-skill">
+                            <tr>
+                              <td>UI/UX Design</td>
+                              <td>Figma</td>
+                              <td>React</td>
+                              <td>Agile</td>
+                            </tr>
+                            <tr>
+                              <td>Product Design</td>
+                              <td>Miro</td>
+                              <td>JavaScript</td>
+                            </tr>
+                            <tr>
+                              <td>FrontEnd Development</td>
+                              <td>Trello</td>
+                              <td>HTML</td>
+                            </tr>
+                            <tr>
+                              <td>Product Development</td>
+                              <td>GitHub</td>
+                              <td>CSS</td>
+                            </tr>
+                            <tr>
+                              <td>Project Mangement</td>
+                              <td>Visual Studi Code</td>
+                            </tr>
+                            <tr>
+                              <td>Usability Testing</td>
+                              <td>Google Workspace & Colab</td>
+                            </tr>
+                          </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
