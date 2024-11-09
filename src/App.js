@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -7,6 +8,8 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Tokoneksi } from './components/project/Tokoneksi'; // Import halaman Tokoneksi
+import { Logo } from './components/project/Logo'; // Import halaman Logo
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <Contact />
       <Footer />
     </div>
+
+    
+
   );
 }
 
