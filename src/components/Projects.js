@@ -16,10 +16,10 @@ export const Projects = () => {
       title: "TOKONEKSI",
       description: "Product Design",
       imgUrl: projImg1,
-      url:"/tokoneksi"
+      url:"https://andaruputrisalsabila.framer.website/project1"
     },
     {
-      title: "LOQO",
+      title: "LOGO",
       description: "UI Design",
       location:"(Studi Independen, Startup Campus)",
       imgUrl: projImg2,
@@ -43,7 +43,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">UI/UX & Product Design</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Front-End Develop</Nav.Link>
+                      <Nav.Link eventKey="second">Front-End Develop</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -61,8 +61,19 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                    <Row className="d-flex justify-content-center align-items-center">
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

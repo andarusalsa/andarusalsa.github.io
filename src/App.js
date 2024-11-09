@@ -8,8 +8,6 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import { Tokoneksi } from './components/project/Tokoneksi'; // Import halaman Tokoneksi
-import { Logo } from './components/project/Logo'; // Import halaman Logo
 
 function App() {
   return (
