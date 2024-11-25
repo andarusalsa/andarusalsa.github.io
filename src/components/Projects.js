@@ -16,7 +16,7 @@ export const Projects = () => {
       title: "TOKONEKSI",
       description: "Product Design",
       imgUrl: projImg1,
-      url:"https://andaruputrisalsabila.framer.website/project1"
+      url:"https://myproject-tokoneksi.framer.website/"
     },
     {
       title: "LOGO",
