@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
+import Astronot from "../assets/img/astronout.png"
 
 export const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
@@ -25,19 +26,15 @@ export const Newsletter = ({ status, message, onValidated }) => {
       <Col lg={12}>
         <div className="newsletter-bx wow slideInUp">
           <Row>
-            <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
-              {status === 'sending' && <Alert>Sending...</Alert>}
-              {status === 'error' && <Alert variant="danger">{message}</Alert>}
-              {status === 'success' && <Alert variant="success">{message}</Alert>}
+            <Col lg={12} md={9} xl={9}>
+              <h3>I’m excited to discuss how I can contribute and explore opportunities to join your team. <img src={Astronot} alt="astronaut" style={{ width: '10%' }}/></h3>
             </Col>
-            <Col md={6} xl={7}>
-              <form onSubmit={handleSubmit}>
+            <Col md={5} xl={3}>
                 <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
+                  <a href='mailto:salsa34545@gmail.com' >
+                    <button className="buttonEmail">Contact me</button>
+                  </a>
                 </div>
-              </form>
             </Col>
           </Row>
         </div>
