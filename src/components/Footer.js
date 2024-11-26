@@ -21,6 +21,7 @@ export const Footer = () => {
               <a href="https://www.instagram.com/sasaandaru/" target="blank"><img src={navIcon3} alt="" /></a>
             </div>
             <p>Copyright 2024. All Rights Reserved</p>
+            <p>I Create this portfolio using React.JS</p>
           </Col>
         </Row>
       </Container>
