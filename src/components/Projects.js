@@ -16,14 +16,14 @@ export const Projects = () => {
       title: "TOKONEKSI",
       description: "Product Design",
       imgUrl: projImg1,
-      url:"https://myproject-tokoneksi.framer.website/"
+      url:"https://my-project.framer.website/"
     },
     {
       title: "LOGO",
       description: "UI Design",
       location:"(Studi Independen, Startup Campus)",
       imgUrl: projImg2,
-      url:"/logo"
+      url:"https://my-project.framer.website/re-design-trip-app"
     },
   ];
   const projectsFE = [
