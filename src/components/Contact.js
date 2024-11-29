@@ -22,12 +22,16 @@ export const Contact = () => {
         <div>
           <h2>Check My Resume</h2>
           <div className="download-buttons">
-            <button className="download-button">
-              Download CV <img src={USFlag} alt="US Flag" style={{ width: "20px", height: "auto"}} />
-            </button>
-            <button className="download-button">
-              Download CV <img src={IDNFlag} alt="Indonesia Flag" style={{ width: "20px", height: "auto" }} />
-            </button>
+            <a href="https://drive.google.com/file/d/17ZhM0I8QAAw1QT6YMKFaDgk1lZEGv95G/view?usp=sharing" target="_blank">
+              <button className="download-button">
+                Download CV <img src={USFlag} alt="US Flag" style={{ width: "20px", height: "auto"}} />
+              </button>
+            </a>
+            <a href="https://drive.google.com/file/d/1hBm5PVLN4RW2dJwE02TPwlCaP4AxPEBp/view?usp=sharing" target="_blank">
+              <button className="download-button">
+                Download CV <img src={IDNFlag} alt="Indonesia Flag" style={{ width: "20px", height: "auto" }} />
+              </button>
+            </a>
           </div>
         </div>
 
@@ -54,10 +58,10 @@ export const Contact = () => {
                 <p>Tim Tokoneksi (Startup Campus - Studi Independen Kampus Merdeka)</p>
                 <ul className="ul">
                   <li>
-                    Collaborate with the team to create interactive prototypes tested by over 10 users, achieving a SUS score of 82.5 with an "excellent" rating.
+                    Collaborated with the team to create interactive prototypes tested by over 10 users, achieving a SUS score of 82.5 with an "excellent" rating.
                   </li>
                   <li>
-                    We have successfully secured 2nd Place in the Final Showcase for the innovation and quality of the designed product.
+                    Successfully won 2nd place in the Final Showcase for the innovative product design, which received recognition from the judging panel for its relevance and potential.
                   </li>
                 </ul>
                 <h4>UI/UX Designer Intern</h4>
@@ -65,10 +69,10 @@ export const Contact = () => {
                 <p>CV. Yanka Kreatif Solusi </p>
                 <ul className="ul">
                   <li>
-                    Collect and analyze user data to identify their needs and behavior patterns, providing insights as the foundation for product design.
+                    Collectd and analyzed user data to identify their needs and behavior patterns, providing insights as the foundation for product design.
                   </li>
                   <li>
-                    Create wireframes, mockups, and prototypes using Figma, effectively communicating design ideas to developers and stakeholders.
+                    Created wireframes, mockups, and prototypes using Figma, effectively communicating design ideas to developers and stakeholders.
                   </li>
                 </ul>
                 <h4>Laboratory Teaching Assistant</h4>
@@ -76,13 +80,13 @@ export const Contact = () => {
                 <p>Institut Teknologi Sumatera </p>
                 <ul className="ul">
                   <li>
-                    Guide over 60 students in understanding the materials for Computer and Software Introduction.
+                    Guided over 60 students in understanding the materials for Computer and Software Introduction.
                   </li>
                   <li>
-                    Record student attendance with 100% accuracy using an organized reporting system.
+                    Recorded student attendance with 100% accuracy using an organized reporting system.
                   </li>
                   <li>
-                    Evaluate and record the grades of over 60 daily programming assignments written in C++, assessing logical accuracy, code efficiency, and adherence to programming standards.
+                    Evaluated and recorded the grades of over 60 daily programming assignments written in C++, assessing logical accuracy, code efficiency, and adherence to programming standards.
                   </li>
                 </ul>
               </div>
