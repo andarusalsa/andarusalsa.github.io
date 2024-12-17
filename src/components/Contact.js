@@ -22,12 +22,12 @@ export const Contact = () => {
         <div>
           <h2>Check My Resume</h2>
           <div className="download-buttons">
-            <a href="https://drive.google.com/file/d/1S896kNb7ZXXrkV60jK5ua3M3g5RQNLEb/view?usp=sharing" target="_blank">
-              <button className="download-button">
+            <a href="https://drive.google.com/file/d/1J9DxOLq3fFi50WawyUZKHwAzKxgMa02h/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <button className="download-button"> 
                 Download CV <img src={USFlag} alt="US Flag" style={{ width: "20px", height: "auto"}} />
               </button>
             </a>
-            <a href="https://drive.google.com/file/d/1w_gGblMzFQk3jR8QFqlRyqEcaFUGuFnG/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1hWBkAwEdx_UP7d7EYPhh8E-9kNnxTOXy/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <button className="download-button">
                 Download CV <img src={IDNFlag} alt="Indonesia Flag" style={{ width: "20px", height: "auto" }} />
               </button>

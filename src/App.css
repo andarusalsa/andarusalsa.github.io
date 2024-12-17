@@ -301,6 +301,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
+/************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -313,15 +314,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
 }
 .skill h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 14px 0;
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 14px 0;
 }
 .background-image-left {
   top: 28%;
@@ -330,17 +331,50 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
-.table-skill{
+
+/* Tabel responsif */
+.table-skill {
   margin: 0 auto;
   padding-top: 15px;
+  width: 70%;
+  overflow-x: auto;
 }
 .table-skill th, .table-skill td {
   text-align: left;
-  padding: 5px 20px 5px 20px;
-}
-.body-skill{
+  padding: 10px 20px;
+  font-size: 14px;
   color: #B8B8B8;
 }
+.table-skill th {
+  background-color: #222;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .table-skill {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .table-skill th, .table-skill td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill h2 {
+    font-size: 32px;
+  }
+  .skill p {
+    font-size: 14px;
+  }
+  .table-skill th, .table-skill td {
+    padding: 6px;
+    font-size: 10px;
+  }
+}
+
 
 /************ Projects Css ************/
 .project {
@@ -464,7 +498,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
@@ -551,7 +585,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 50%; /* Pusatkan garis vertikal ke lingkaran */
   transform: translateX(-50%);
   width: 2px; /* Ketebalan garis */
-  height: calc(100% + 390px); /* Panjang garis (atur sesuai kebutuhan) */
+  height: calc(100%); /* Panjang garis (atur sesuai kebutuhan) */
   background-color: #fff; /* Warna garis vertikal */
 }
 
@@ -590,7 +624,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 50%; /* Pusatkan garis vertikal ke lingkaran */
   transform: translateX(-50%);
   width: 2px; /* Ketebalan garis */
-  height: calc(100% + 100px); /* Panjang garis (atur sesuai kebutuhan) */
+  height: calc(100%); /* Panjang garis (atur sesuai kebutuhan) */
   background-color: #fff; /* Warna garis vertikal */
 }
 
@@ -623,7 +657,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 50%; /* Pusatkan garis vertikal ke lingkaran */
   transform: translateX(-50%);
   width: 2px; /* Ketebalan garis */
-  height: calc(100% + 35px); /* Panjang garis (atur sesuai kebutuhan) */
+  height: calc(100%); /* Panjang garis (atur sesuai kebutuhan) */
   background-color: #fff; /* Warna garis vertikal */
 }
 
